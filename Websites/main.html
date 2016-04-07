@@ -1,0 +1,49 @@
+<!-- Main  -->
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset = utf-8">
+      <title>Main</title>
+      <style>
+         body{
+             background-image:url("background.jpg");
+             }
+         h1{
+          display:inline-block;
+          padding: 20px 20px;
+          background-color:#009933;
+          border-radius: 25px;
+          margin:0;
+          color:white;
+          text-align:center;
+          }
+    
+      </style>
+   </head>
+   <body>
+      <div style="text-align:center;"><h1><caption><strong><font face="Comic Sans MS">SS12 Reader</font></strong></caption></h1></div>
+      <p id=info><font color="Black"face="Comic Sans MS">Teacher's information:</font></p>
+      <form id ="Teacher's information" action = "upload_file.php" method ="get">
+          <DIV class=control-group><SPAN class=icon-user></SPAN><INPUT type=text name=firstname placeholder="First Name"></DIV>
+          <DIV class=control-group><SPAN class=icon-lock></SPAN><INPUT type=text name=lastname placeholder="Last Name"> </DIV>
+          <DIV class=control-group><SPAN class=icon-lock></SPAN><INPUT type=text name=Course placeholder="Course"> </DIV>
+      <table style="text-align:center;" border = "1";border-width:5px; border-style:double;>
+         <thead>
+            <tr>
+               <th><font face="Comic Sans MS">Upload the Text</font></th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <th>
+                  <textarea name = "read" id  = "read" cols="35" wrap = "soft"></textarea>
+                  <input type="submit" name="submit" value="Submit" id = "submit"/>
+                  <h5><font face="Comic Sans MS">Drag the bottom right hand corner to change the size</font></h5>
+               </th>
+            </tr>
+         </tbody>
+       </table>
+       </form>
+      <p><font face="Comic Sans MS"><a href ="review.php">Check The Progress</a></font></p>
+      
+   </body>
+</html>

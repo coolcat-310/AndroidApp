@@ -156,7 +156,8 @@ public class MainActivity extends AppCompatActivity {
     private void loadStatus() {
         // Set URI location
         String location = "http://52.33.120.235/juan.php";
-
+        //peer-reader.ddns.net
+        //ip: 52.33.120.235
         ourMessage.setText("Loading status.. ");
 
 
